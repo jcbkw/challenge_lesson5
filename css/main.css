@@ -3,7 +3,7 @@ body {
 }
 
 nav {
-    background-color: grey;
+    background-color: #b5b5b5;
     width:100%;
     position: relative;
     padding: 10px;
@@ -45,4 +45,5 @@ ul.nav {
 
 .nav a {
     text-decoration: none;
+    color: purple;
 }
