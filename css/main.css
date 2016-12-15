@@ -1,31 +1,32 @@
 body {
     margin: 0;
+    padding: 0:
+}
+
+.main {
+    margin: 100px 40px;
 }
 
 nav {
     background-color: #b5b5b5;
-    width:100%;
-    position: relative;
-    padding: 10px;
+    width: 100%;
+    position: fixed;
+    padding: 15px;
+    top:0px;
 }
 
-nav h1,
-.nav {
+nav h1, .nav {
     font-family: sans-serif;
     font-size: 20px;
 }
 
-nav h1,
-ul.nav,
-.nav li {
+nav h1, ul.nav, .nav li {
     display: inline-block;
 }
 
-
-nav h1,
-ul.nav {
-    margin:0;
-    padding:0;
+nav h1, ul.nav {
+    margin: 0;
+    padding: 0;
 }
 
 .nav {
@@ -34,12 +35,9 @@ ul.nav {
     position: absolute;
     text-align: right;
     right: 30px;
-
-
 }
 
 .nav li {
-
     margin-right: 15px;
 }
 
@@ -49,48 +47,57 @@ ul.nav {
 }
 
 .page_nav {
-    margin-left: 20px;
+    margin: 20px;
     line-height: 30px;
-
-
 }
-.page_nav div {
 
-padding:5px;
-display:inline-block;
-border: 1px solid #b5b5b5;
+.page_nav div {
+    padding: 8px;
+    float:left;
+    border: 1px solid #b5b5b5;
+    font-family: sans-serif;
+    margin-bottom: 25px;
 }
 
 .page_nav a {
-
-text-decoration: none;
-color: black;
-
+    text-decoration: none;
+    color: black;
 }
 
 form button {
-
-padding: 0px;
-vertical-align: top;
-border-radius: 3px;
+    padding: 0px;
+    vertical-align: top;
+    border-radius: 3px;
 }
 
 form img {
-
-    width:30px;
-    height:30px;
-
+    width: 30px;
+    height: 30px;
 }
 
 form {
-margin-top: 50px;
-margin-left: 20px;
-
+    margin-top: 50px;
+    margin-left: 20px;
 }
 
 input[type="search"] {
+    font-size: 25px;
+    border-radius: 3px;
+}
 
-font-size: 25px;
-border-radius: 3px;
+.search_result {
+    clear: left;
+    margin: 20px 15px;
+}
 
+.search_result div {
+    display:inline-block;
+    font-family: sans-serif;
+    color: grey;
+    padding: 5px;
+}
+
+.search_result a {
+
+    text-decoration: none;
 }
