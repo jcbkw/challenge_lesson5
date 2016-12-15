@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    padding: 0:
+    padding: 0;
+    font-family: sans-serif;
 }
 
 .main {
@@ -16,7 +17,7 @@ nav {
 }
 
 nav h1, .nav {
-    font-family: sans-serif;
+
     font-size: 20px;
 }
 
@@ -55,7 +56,6 @@ nav h1, ul.nav {
     padding: 8px;
     float:left;
     border: 1px solid #b5b5b5;
-    font-family: sans-serif;
     margin-bottom: 25px;
 }
 
@@ -92,7 +92,6 @@ input[type="search"] {
 
 .search_result div {
     display:inline-block;
-    font-family: sans-serif;
     color: grey;
     padding: 5px;
 }
